@@ -1,0 +1,4 @@
+* importing scene from file
+* handle model rotation via rotating rays cast at model in inverse position + rotation - this should be done in the modelinstance class
+* more basic shaders (reflection, etc.)
+* bounce lighting/emitter objects
