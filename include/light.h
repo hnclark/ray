@@ -35,8 +35,8 @@ public:
 		int y = (int)point.axis[AXIS_Y] - (int)pos.axis[AXIS_Y];
 		int z = (int)point.axis[AXIS_Z] - (int)pos.axis[AXIS_Z];
 		x = std::abs(x);
-		y = std::abs(x);
-		z = std::abs(x);
+		y = std::abs(y);
+		z = std::abs(z);
 		unsigned int rad = (x + y + z);
 		unsigned int rand = std::hash<unsigned int>()(rad) ^ std::hash<unsigned int>()(omp_get_thread_num());
 		return rad < radius + (rand & LIGHT_CAST_RAND_ADD);
