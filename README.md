@@ -1,8 +1,8 @@
-# Top-down orthographic renderer
-A simple top-down orthographic renderer. Currently supported:
+# Orthographic real-time raytracer
+A simple top-down orthographic raytracer. Currently supported:
 * Meshes with multiple raytracing acceleration structures
 * Multiple instances of one mesh with independent movement
-* Multiple light sources
+* Multiple light sources (shadow casting and non-shadow casting)
 
 ## Building
 Run ```make``` in the root directory. Requires LibSDL2 and OpenMP to build.
